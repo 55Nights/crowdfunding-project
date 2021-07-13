@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Commissioner', sans-serif;
+    background-color: rgb(219, 214, 214);
+}
+.container{
+   box-shadow: 0 0 0 1em black;
+}
+#img{
+    padding: 0;
+}
+button{
+  width: 9rem;
+  padding: 1em;
+  border-radius: 16px;
+  background-color: cyan;
+  color: white;
+}
+button:hover{
+    background-color: white;
+    color: rgb(70, 148, 148);
+}
+.nav-logo{
+    position: absolute;
+    width: 100%;
+    top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    float: right;
+    text-transform: capitalize;
+    text-decoration: none;
+    right: 0;
+}
+a:hover{
+color: rgb(107, 35, 35);
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding:2em;
+    
+}
+/* main-contentent*/
+.main-content{
+    position: relative;
+    top: -50px;
+    margin-left: 20%;
+    width: 50%;
+    
+    
+}
+/*class bookmark*/
+.bookmark{
+    
+    border-radius: 1em;
+    background-color: white;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+.btn-book{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.numbers{
+    background-color: white;
+    border-radius: 1em;
+   margin-bottom: 2em;
+   padding:2em 1em 2em 1em;
+}
+table{
+    width: 100%;
+}
+/*semi*/
+#s{
+
+margin-bottom: 2em;
+background-color: white;
+padding: 1em;
+border: 2px solid rgba(128, 124, 124,0.6);
+border-radius: 1em;
+}
+p.s{
+    margin-top: 2em;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.pledge{
+    color: rgb(13, 187, 187);
+    font-weight: 700;
+}
+
+.num{
+    font-weight: bolder;
+}
+.semi1{
+    margin-bottom: 2em;
+}
