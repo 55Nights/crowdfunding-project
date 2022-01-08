@@ -1,118 +1,109 @@
+:root{
+--Moderatecyan: hsl(176, 50%, 47%);
+--Darkcyan: hsl(176, 72%, 28%);
+--Darkgray: hsl(0, 0%, 48%);
+}
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+    font-family: "Commissioner";
 }
 body{
-    font-family: 'Commissioner', sans-serif;
-    background-color: rgb(219, 214, 214);
+    background-color: var(--Darkgray);
 }
-.container{
-   box-shadow: 0 0 0 1em black;
-}
-#img{
-    padding: 0;
-}
-button{
-  width: 9rem;
-  padding: 1em;
-  border-radius: 16px;
-  background-color: cyan;
-  color: white;
-}
-button:hover{
-    background-color: white;
-    color: rgb(70, 148, 148);
-}
-.nav-logo{
-    position: absolute;
-    width: 100%;
-    top:50px;
-    display: flex;
-    justify-content: space-between;
-}
-.nav-links{
-    float: right;
-    text-transform: capitalize;
-    text-decoration: none;
-    right: 0;
-}
-a:hover{
-color: rgb(107, 35, 35);
-}
-li{
-    display: inline-block;
-    list-style: none;
-}
-a{
-    text-decoration: none;
+header{
+    background-image: url(./assets/image-hero-mobile.jpg);
+    background-size: cover;
+    padding: 2em;
+    padding-bottom: 10em;
     color: white;
-    padding:2em;
     
 }
-/* main-contentent*/
-.main-content{
-    position: relative;
-    top: -50px;
-    margin-left: 20%;
-    width: 50%;
-    
-    
-}
-/*class bookmark*/
-.bookmark{
-    
-    border-radius: 1em;
-    background-color: white;
-    margin-bottom: 1em;
-    text-align: center;
-    margin-bottom: 2em;
-    padding: 1em;
-}
-.btn-book{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-.numbers{
-    background-color: white;
-    border-radius: 1em;
-   margin-bottom: 2em;
-   padding:2em 1em 2em 1em;
-}
-table{
-    width: 100%;
-}
-/*semi*/
-#s{
-
-margin-bottom: 2em;
-background-color: white;
-padding: 1em;
-border: 2px solid rgba(128, 124, 124,0.6);
-border-radius: 1em;
-}
-p.s{
-    margin-top: 2em;
-}
-.select{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-.head{
+nav{
     display: flex;
     justify-content: space-between;
 }
-.pledge{
-    color: rgb(13, 187, 187);
+.logo p{
+    font-size: 2em;
     font-weight: 700;
 }
-
-.num{
-    font-weight: bolder;
+.bar{
+    width: 15px;
+    height: 2px;
+    margin: 5px;
+    background-color: white;
+   
 }
-.semi1{
-    margin-bottom: 2em;
+.desktop-links{
+    display: none;
+}
+.mobile-links ul{
+    color: #000;
+    background-color: white;
+    list-style: none;
+   margin-top: 1em;
+}
+.mobile-links li{
+    padding: 1em;
+    font-weight: 500;
+    font-size: 1.5em;
+    display: none;
+}
+main{
+    padding: 2em;
+}
+.firstcard{
+    position: relative;
+    top: -3em;
+    background-color: white;
+    text-align: center;
+    border-radius: 1em;
+
+    
+}
+.master-logo{
+    position: relative;
+    margin: auto;
+    background-image: url(./assets/logo-mastercraft.svg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: -1em;
+   
+}
+.firstcard h3{
+    margin-bottom: 1em;
+}
+.firstcard p{
+    line-height: 2em;
+    padding-bottom: 2em;
+    font-weight: 100;
+}
+.master-links{
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-around;
+  padding-bottom: 2em;
+}
+.bookmark{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./assets/icon-bookmark.svg);
+    background-position: center;
+    background-size: cover;
+
+}
+.master-links button{
+    width: 60%;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    background-color: var(--Moderatecyan);
+    border: 2px;
 }
