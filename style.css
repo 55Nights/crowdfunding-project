@@ -107,3 +107,43 @@ main{
     background-color: var(--Moderatecyan);
     border: 2px;
 }
+.secondcard{
+    outline: 2px solid red;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    
+}
+.total{
+    margin: auto;
+    border-bottom: 2px solid var(--Darkgray);
+    width: 50%;
+    text-align: center;
+    margin-bottom: 1em;
+   
+}
+.money{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+.amount{
+    font-weight: 200;
+    font-size: 0.8em;
+    padding-bottom: 1em;
+   
+}
+.thirdcard{
+    outline: 2px solid blue;
+    background-color: white;
+    padding: 1em;
+    
+}
+.thirdcard h5{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.about-info p{
+    line-height: 10em;
+}
