@@ -112,6 +112,7 @@ main{
     background-color: white;
     padding: 1em;
     border-radius: 1em;
+    margin-bottom: 1em;
     
 }
 .total{
@@ -138,6 +139,7 @@ main{
     outline: 2px solid blue;
     background-color: white;
     padding: 1em;
+    margin-bottom: 1em;
     
 }
 .thirdcard h5{
@@ -146,4 +148,98 @@ main{
 }
 .about-info p{
     line-height: 10em;
+    color: var(--Darkgray);
+}
+.stand-card,.last-card{
+    background-color: white;
+    margin: 1em;
+    border: 1px solid var(--Darkgray);
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.stand-card h6{
+ font-size: 1em;
+ margin-bottom: 0.5em;
+}
+.last-card h6{
+    font-size: 1em;
+ margin-bottom: 0.5em;
+}
+.pledge{
+    color: var(--Moderatecyan);
+    margin-bottom: 1em;
+   font-weight: 700;
+}
+.stand-info{
+    font-weight: 400;
+    color: var(--Darkgray);
+}
+.info-left{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.number-left{
+    font-size:1.5em;
+    font-weight: bolder;
+}
+.left{
+    font-size: 0.8em;
+    color: var(--Darkgray);
+}
+.reward{
+    background-color:var(--Moderatecyan);
+    padding: 1em;
+    border-radius: 2em;
+    color: white;
+    border: 0;
+    width: 13em;
+    margin-bottom: 2em;
+}
+.last-card button{
+    background-color: var(--Darkgray);
+}
+.last-card{
+    opacity: 0.4;
+}
+.modal{
+   position: absolute;
+   background-color: white;
+   padding: 1em;
+   margin-bottom: 1em;
+   top: 10em;
+   margin-right: 2.5em;
+   box-shadow:5px 5px 5px rgb(87, 86, 86);
+   z-index: 1em;
+   display: none;
+}
+.check-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline:  2px solid rgb(66, 65, 65);
+    
+}
+.icon-check{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline:  2px solid rgb(66, 65, 65);
+    background-image: url(./assets/icon-check.svg);
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.check{
+    display: flex;
+}
+.subtitle{
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
